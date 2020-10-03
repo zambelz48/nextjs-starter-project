@@ -1,10 +1,10 @@
 {
-  "name": "bapak2id-front-site",
-  "description": "Bapak2ID Front Site",
+  "name": "project-name",
+  "description": "Project description....",
   "version": "0.0.1",
-  "author": "Bapak2ID",
+  "author": "John Doe <john@doe.com>",
   "contributors": [
-    "Nanda Julianda Akbar <nanda.julianda48@gmail.com>"
+    "John Doe <john@doe.com>"
   ],
   "private": true,
   "scripts": {
