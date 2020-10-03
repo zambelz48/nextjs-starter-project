@@ -1,15 +1,39 @@
 {
-  "name": "bapak2id-front-site",
-  "version": "0.1.0",
+  "name": "your-site-name-here",
+  "description": "Put your description here",
+  "version": "0.0.1",
+  "author": "John Doe <john@doe.com>",
+  "contributors": [
+    "John Doe <john@doe.com>"
+  ],
   "private": true,
   "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn lint && next build",
     "start": "next start"
   },
   "dependencies": {
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "14.11.2",
+    "@types/react": "16.9.49",
+    "@typescript-eslint/eslint-plugin": "4.3.0",
+    "@typescript-eslint/parser": "4.3.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-react": "7.21.3",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "prettier": "2.1.2",
+    "typescript": "4.0.3"
+  },
+  "engines": {
+    "node": ">= 12.13.0",
+    "npm": ">= 6.12.0",
+    "yarn": "^1.22.0"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
