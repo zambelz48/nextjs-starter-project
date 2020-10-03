@@ -3,10 +3,10 @@ import React from 'react'
 import '../styles/globals.css'
 
 function MyApp(arg: {
-    Component: React.ComponentType
-    pageProps: JSX.IntrinsicAttributes
+	Component: React.ComponentType
+	pageProps: JSX.IntrinsicAttributes
 }): JSX.Element {
-    return <arg.Component {...arg.pageProps} />
+	return <arg.Component {...arg.pageProps} />
 }
 
 export default MyApp
